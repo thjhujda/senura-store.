@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senura.store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* Light Green background */
+        }
+        header {
+            background-color: #00796b; /* Teal Blue background for header */
+            color: #fff;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 3rem;
+            letter-spacing: 2px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 4rem 2rem;
+            max-width: 900px;
+            margin: auto;
+            background-color: #ffffff; /* White background for sections */
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 3rem;
+        }
+        h2 {
+            color: #333;
+            font-size: 2.5rem;
+        }
+        .projects .project-item {
+            display: flex;
+            align-items: center;
+            margin: 1rem 0;
+            background-color: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .projects .project-item img {
+            width: 150px;
+            height: 150px;
+            border-radius: 8px;
+            margin-right: 2rem;
+        }
+        footer {
+            background-color: #00796b; /* Same teal blue for footer */
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Senura.store</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Welcome to Senura.store</h2>
+        <p>Your one-stop shop for everything amazing! Explore our latest projects and get in touch.</p>
+        <img src="https://via.placeholder.com/800x400?text=Clothing+Logo" alt="Senura.store Image" style="width: 100%; border-radius: 8px;">
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Senura.store is here to make your shopping experience simple and awesome. We are dedicated to providing you with the best products and customer service. Stay tuned for more exciting updates!</p>
+        <img src="https://via.placeholder.com/400x300" alt="About Senura.store" style="width: 100%; border-radius: 8px;">
+    </section>
+
+    <section id="projects" class="section projects">
+        <h2>Our Projects</h2>
+        <div class="project-item">
+            <img src="https://via.placeholder.com/150x150" alt="Project One">
+            <div>
+                <h3>Project One</h3>
+                <p>A great project we’re working on. Stay tuned for updates!</p>
+            </div>
+        </div>
+        <div class="project-item">
+            <img src="https://via.placeholder.com/150x150" alt="Project Two">
+            <div>
+                <h3>Project Two</h3>
+                <p>This project is exciting! We can’t wait to share more with you.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Senura.store. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
